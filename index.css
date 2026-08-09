@@ -68,7 +68,6 @@ body {
 
 #synopsisText {
     display: flex;
-    border: solid 1px white;
     justify-content: center;
     align-items: center;
     font-size: 12px;
