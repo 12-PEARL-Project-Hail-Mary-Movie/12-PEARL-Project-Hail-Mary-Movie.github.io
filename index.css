@@ -22,7 +22,7 @@ html, body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;
+    min-height: auto;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -56,8 +56,8 @@ html, body {
 }
 
 .pageButtons {
- padding: 65px;
- letter-spacing: 2px;
+    padding: 20px 65px;
+    letter-spacing: 2px;
 }
 
 #synopsisText {
@@ -80,15 +80,17 @@ html, body {
     min-height: 1024px;
     margin: 0 auto;
     justify-content: flex-start;
-    padding: 60px 20px 60px 20px;
+
+    padding: 0px 20px 60px 20px;
+
     position: relative;
-    
     box-sizing: border-box;
     color: white;
     background-image: url(assets/BG2.png);
     background-repeat: no-repeat;
     background-position: center;
-    
+    background-size: cover;
+
 }
 
 #moviecastHeader {
@@ -98,22 +100,30 @@ html, body {
     text-align: center;
     width: 409px;
 
-    margin-top: 0 !important;
+    top: 40px;
     margin-bottom: 10px !important;
-    padding-top: 20px;
+    padding-top: 60px;
     max-width: 90%;
 }
 
 #castNames {
+    flex-direction: column;
     font-size: 14px;
-    color: white;
     letter-spacing: 6px;
+    align-self: left;
+    text-align: center;
+    padding-top: 50px;
+    gap: 50px;
+    box-sizing: border-box;
+    margin-left: -175px;
 
 }
 
 .characterNames {
     font-size: 12px;
     color: #a99a92;
+    margin-top: 25px;
+    margin-bottom: 225px;
 
 }
 
@@ -126,6 +136,8 @@ html, body {
     width: 100%;
     padding: 0 110px; 
     box-sizing: border-box;
+
+    margin-top: 20px;
 
 }
 #characterPortraits {
