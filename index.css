@@ -19,6 +19,8 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
     background-color: rgb(0, 0, 0);
     background-image: url(assets/BG1.png);
     background-repeat: no-repeat;
@@ -30,8 +32,8 @@ body {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    z-index: 10;
-    pointer-events: none;
+    z-index: 100;
+    
 }
 
 #logo {
