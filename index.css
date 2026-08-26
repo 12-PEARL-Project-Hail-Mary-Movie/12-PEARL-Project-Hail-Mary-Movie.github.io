@@ -29,11 +29,12 @@ body {
 }
 
 #imdbLink {
+    width: 100%;
     position: fixed;
     bottom: 20px;
     left: 20px;
     z-index: 100;
-    
+
 }
 
 #logo {
