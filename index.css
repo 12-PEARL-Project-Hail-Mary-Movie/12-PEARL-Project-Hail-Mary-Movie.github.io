@@ -32,6 +32,10 @@ body {
     height: 100vh;
     align-items: end;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    pointer-events: none;
 }
 
 #logo {
