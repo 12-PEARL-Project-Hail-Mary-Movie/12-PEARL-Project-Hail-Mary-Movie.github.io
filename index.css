@@ -10,7 +10,6 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Hail_Mary_Sans_v2", sans-serif;
-
 }
 
 #homePage {
@@ -21,55 +20,42 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
+    background-image: url(assets/BG1.png);
+    background-repeat: no-repeat;
+    background-position: center;
     color: white;
 }
-#backgroundImage {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -10;
 
-
-}
 #imdbLink {
     display: flex;
     width: 100vw;
     height: 100vh;
     align-items: end;
     position: fixed;
-    padding: 25%;
-    bottom: 20;
-    right: 20;
-    z-index: 10;
-    pointer-events: none;
-    
 }
 
 #logo {
+
 }
 
 #youtubeContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    font-size: 32px ;
-    width: 100% ;
+    font-size: 24px ;
 
 }
 
 .pageButtons {
-
+ padding: 65px;
+ letter-spacing: 2px;
 }
 
 #synopsisText {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    white-space: pre-line !important;
+    display: block !important; 
     font-size: 12px;
-    width: 50%;
+    letter-spacing: 6px;
+    text-align: center;
+    width: 45%; 
 }
